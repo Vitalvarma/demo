@@ -10,14 +10,14 @@
 <body>
     <h2>Cards with Images</h2>
 
-    <div class="card">
+    <!-- <div class="card">
       <img src="john_doe.png" alt="John Doe" class="card-img-john">
       <img src="jane_doe.png" alt="Jane Doe" class="card-img-jane">
       <div class="container">
         <h4><b id="name">John Doe</b></h4> 
         <p id="prof">Architect & Engineer</p> 
       </div>
-    </div>
+    </div> -->
 
     <!--
     <div class="card">
@@ -29,7 +29,16 @@
     </div>
     -->
 
-    <button onclick="toggle()">Toggle John/Jane</button>
+    <div class="card">
+      <img alt="profile pic" class="profile-img">
+      <div class="container">
+        <h4><b id="name">Name</b></h4> 
+        <p id="prof">Proffession</p> 
+      </div>
+    </div>
+
+    <!-- <button onclick="toggle()">Toggle John/Jane</button> -->
+     <button onclick="randomUser()">Generate Random User</button>
 
     <script src="index.js"></script>
 </body>
